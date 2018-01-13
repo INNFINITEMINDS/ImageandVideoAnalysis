@@ -39,6 +39,7 @@ cv2.imshow('mask_ivk', mask_ivk)
 cv2.imshow('img1_bg', img1_bg)
 cv2.imshow('img2_fg', img2_fg)
 cv2.imshow('dst', dst)
+cv2.imshow('img1', img1)
 
 cv2.waitKey(0)
 cv2.destroyAllWindows()
