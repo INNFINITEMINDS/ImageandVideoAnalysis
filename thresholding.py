@@ -1,7 +1,7 @@
 import numpy as np
 import cv2
 
-img = cv2.imread("img/pin.png")
+img = cv2.imread("img/bookpage.png")
 ret, threshold = cv2.threshold(img, 95, 255, cv2.THRESH_BINARY)
 
 gray_scale = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
